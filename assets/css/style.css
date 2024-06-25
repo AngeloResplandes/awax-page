@@ -389,3 +389,108 @@ nav li a {
 .section_projects--photoarea:hover .section_projects--photoinfo {
   display: flex;
 }
+
+.bg-team {
+  background-image: url("../images/bg.jpg");
+  background-position: center;
+  background-size: cover;
+  padding: 0;
+}
+
+.section_team_area {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.section_team {
+  overflow: hidden;
+  max-width: 880px;
+  margin: auto;
+}
+
+.section_team .sliders {
+  height: 100%;
+  width: 1000vw;
+}
+
+.section_team .slide {
+  height: 100%;
+  width: 280px;
+  display: inline-block;
+  background-color: #fff;
+  margin-bottom: -5px;
+  margin-right: 20px;
+  min-height: 300px;
+}
+
+.section_team .slideArea {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  color: #000;
+  padding: 30px;
+}
+
+.section_team_area .slidePointers {
+  margin-top: 30px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section_team_area .pointer {
+  height: 15px;
+  width: 15px;
+  border: 3px solid #b98b59;
+  border-radius: 50%;
+  margin-left: 5px;
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+.section_team_area .pointer.active {
+  background-color: #b98b59;
+}
+
+.section_team--avatar img {
+  width: 150px;
+  height: auto;
+}
+
+.section_team--name {
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 17px;
+  margin-top: 30px;
+}
+
+.section_team--row {
+  font-size: 14px;
+  color: #383838;
+  margin-top: 5px;
+}
+
+.section_team--social {
+  display: flex;
+  margin-top: 20px;
+}
+
+.section_team--social a {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 25px;
+  height: 25px;
+  background-color: #ccc;
+  border-radius: 50%;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.section_team--social a:hover {
+  background-color: #b98b59;
+}
